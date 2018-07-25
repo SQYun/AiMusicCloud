@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="./css/header.css">
     <link rel="stylesheet" href="./css/play.css">
     <link rel="stylesheet" href="./css/stylesheets/style.css">
+    <link rel="stylesheet" href="./css/comment.css">
     <!--<script src="./js/jquery.js"></script>-->
     <script src="js/jquery-1.7.2.min.js"></script>
     <script src="js/jquery-ui-1.8.17.custom.min.js"></script>
@@ -70,7 +71,8 @@
                     <div><span>评论</span></div>
                 </div>
             </div>
-        </div><br>
+        </div>
+        <br>
         <div class="p-songWords">歌词</div>
     </div>
 </div>
@@ -80,7 +82,8 @@
             <div id="player">
                 <div class="cover"></div>
                 <div class="ctrl">
-                    <div class="tag"> <strong>Title</strong> <span class="artist">Artist</span> <span class="album">Album</span> </div>
+                    <div class="tag"><strong>Title</strong> <span class="artist">Artist</span> <span
+                            class="album">Album</span></div>
                     <div class="control">
                         <div class="left">
                             <div class="rewind icon"></div>
@@ -108,12 +111,54 @@
                 </div>
             </div>
             <!--<ul id="playlist" class="uicss-cn">-->
-                <!--<span style="width: 100%;height: 7px;display: block;"></span>-->
+            <!--<span style="width: 100%;height: 7px;display: block;"></span>-->
             <!--</ul>-->
         </div>
     </button>
 </div>
+<div class='wrapper'>
+    <!--<CommentInput onSubmit={this.handleSubmitComment.bind(this)}/>-->
+    <div class='comment-input'>
+        <div class='comment-field'>
+            <span class='comment-field-name'>用户名：</span>
+            <div class='comment-field-input comment-input-user'>
+                <input/>
+
+                <!--value={this.state.username}-->
+                <!--onChange={this.handleUsernameChange.bind(this)}-->
+            </div>
+        </div>
+        <div class='comment-field'>
+            <span class='comment-field-name'>评论内容：</span>
+            <div class='comment-field-input comment-input-content'>
+                <textarea></textarea>
+                <!--<textarea/>-->
+            </div>
+            <!--value={this.state.content} onChange={this.handleContentChange.bind(this)}-->
+
+        </div>
+        <div class='comment-field-button'>
+            <button>
+                <!--onClick={this.handleSubmit.bind(this)}>-->
+                发布
+            </button>
+        </div>
+    </div>
+    <!--<CommentList comments={this.state.comments}/>-->
+        <div class="comment-list2">
+            <!--{this.props.comments.map((comment, i) => <Comment comment={comment} key={i}/>)}-->
+            <!--<div class='comment'>-->
+                <!--<div class='comment-user'>-->
+                    <!--&lt;!&ndash;<span>{this.props.comment.username} </span>：&ndash;&gt;-->
+                    <!--<span></span>-->
+                <!--</div>-->
+                <!--&lt;!&ndash;<p>{this.props.comment.content}</p>&ndash;&gt;-->
+                <!--<p></p>-->
+            <!--</div>-->
+        </div>
+</div>
 <script src="js/script.js"></script>
 <script src="js/header.js"></script>
+<script src="js/play.js"></script>
 </body>
 </html>

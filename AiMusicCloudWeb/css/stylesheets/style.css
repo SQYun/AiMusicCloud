@@ -98,11 +98,12 @@ a {
     /*height: 100%;*/
     /*background: url(../../img/banner.jpg);*/
     /*position: fixed*/
-    background-color: #f0f8fa;
+    /*background-color: #f0f8fa;*/
 }
 
 .bo1 {
-    /*background: url(../../img/music-back.png) no-repeat;*/
+    background: url(./../../images/mainPic.png) no-repeat;
+    background-size: contain;
     width: 500px;
     /*height: 275px;*/
     padding: 25px;
@@ -121,7 +122,9 @@ a {
 #player {
     width: 456px;
     height: 130px;
-    padding: 12px
+    padding: 12px;
+    /*border: 1px solid #666;*/
+    border-radius: 2px;
 }
 
 #player .cover {

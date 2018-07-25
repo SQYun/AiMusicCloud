@@ -6,6 +6,7 @@ body{
     background:url("./../images/mainPic.png") no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
+    font-family: '微软雅黑';
     height: 2000px;
 }
 
@@ -53,6 +54,8 @@ body{
 
 .h-ul {
     display: inline-block;
+    height: 100%;
+    vertical-align: text-top;
 }
 
 .h-ul li {
