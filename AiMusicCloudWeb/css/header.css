@@ -12,6 +12,8 @@ body{
 .header {
     width: 100%;
     position: fixed;
+    top: 0;
+    overflow: hidden;
     z-index: 10000;
 }
 
@@ -41,7 +43,7 @@ body{
 .h-logo:before {
     content: '';
     display: inline-block;
-    background: url("../images/music.png");
+    background: url("./../img/music.png");
     background-size: 32px 32px;
     width: 32px;
     height: 32px;
