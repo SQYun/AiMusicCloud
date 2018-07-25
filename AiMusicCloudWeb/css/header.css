@@ -72,14 +72,15 @@
 .h-right-input input {
     width: auto;
     height: 20px;
-    padding-right: 25px background-color #fff;
+    padding-right: 25px ;
+    background-color:#fff;
 }
 
 .h-right-input img {
     position: absolute;
     right: 0;
     top: 50%;
-    transform translateY(-50%);
+    transform:translateY(-50%);
 }
 
 .login {
@@ -90,7 +91,7 @@
     color: #fff;
     text-decoration: none;
     margin: 30px;
-    margin-left 40px;
+    margin-left:40px;
     margin-right: 70px;
 }
 
