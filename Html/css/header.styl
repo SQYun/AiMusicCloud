@@ -1,0 +1,77 @@
+.header
+  width: 100%;
+  height: 64px;
+  background-color: #3399FF;
+  min-width:1200px
+
+.h-left
+  line-height: 64px;
+  display: inline-block
+
+  .h-logo
+    display: inline-block
+
+    font-size: 32px;
+    font-family: Brush Script Std;
+    font-weight: bold;
+    color: #FFFFCC;
+    margin-left 40px
+
+    &:before
+      content: ''
+      display: inline-block
+
+      background: url("./../img/music.png")
+      background-size: 32px 32px
+      width: 32px
+      height: 32px
+
+  .h-ul
+    display: inline-block
+    list-style-type: none
+    margin: 0
+    //height: 100%
+    li
+      //line-height 31px
+      display: inline-block
+      height: 32px
+      color: #d9ebe3
+      //background-color: #99d6e3
+      float: left
+      //vertical-align middle
+      text-align: center
+      margin: 0px 20px
+      line-height: 31px
+      vertical-align: bottom;
+      &:hover
+        color: #fff
+
+.h-right
+  line-height: 64px;
+  display: inline-block
+  float: right
+  .h-right-input
+    height: 64px
+    width: auto
+    display: inline-block
+    position: relative
+    input
+      width: auto
+      height: 20px
+      padding-right: 25px
+      background-color #fff
+    img
+      position: absolute
+      right: 0
+      top: 50%
+      transform translateY(-50%)
+  .login
+    display: inline-block
+    a
+      color: #fff
+      text-decoration:none
+      margin: 30px
+      margin-left 40px
+      margin-right: 70px
+      &:hover
+        color: #FFFFCC
