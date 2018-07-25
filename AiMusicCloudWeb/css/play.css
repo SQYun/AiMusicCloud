@@ -1,0 +1,172 @@
+.p-content {
+    width: 100%;
+    display: flex;
+}
+
+.p-c-left {
+    flex: 1;
+}
+
+.p-c-left img {
+    float: right;
+    margin: 50px 20px 0 0;
+}
+
+.p-c-right {
+    flex: 2;
+}
+
+.p--mainInfo {
+    float: left;
+    width: 100%;
+    margin: 50px 0 0 0;
+}
+
+.p-musicName {
+    font-size: 25px;
+}
+
+.p-musicName:before {
+    content: '单曲>>';
+    border-radius: 20px;
+    border: 1px solid #000;
+    background-color: #FFFFCC;
+    font-size: 16px;
+    padding: 0 10px;
+    margin-right: 5px;
+
+    /*width: 20px;*/
+    /*height: 20px;*/
+}
+
+.p-singer {
+    font-size: 15px;
+    margin-top: 10px;
+    color: #3399FF;
+}
+
+.p-singer:before {
+    content: '歌手';
+    color: #000;
+    border-radius: 5px;
+    border: 1px solid #000;
+    margin-right: 10px;
+    padding: 0 10px;
+    font-size: 10px;
+}
+
+.p-cd {
+    margin-top: 10px;
+    font-size: 15px;
+    color: #3399FF;
+}
+
+.p-cd:before {
+    content: '所属专辑';
+    color: #000;
+    border-radius: 5px;
+    border: 1px solid #000;
+    margin-right: 10px;
+    padding: 0 10px;
+    font-size: 10px;
+}
+
+.p-functions {
+    display: flex;
+    width: 400px;
+    margin-top: 30px;
+    vertical-align: middle;
+}
+
+.p-function {
+    flex: 1;
+    display: inline-block;
+    font-size: 12px;
+    color: #666666;
+}
+
+.p-function div {
+    /*justify-content: center;*/
+    /*align-items: center;*/
+    /*vertical-align: middle;*/
+    /*padding-left: 25px;*/
+    position: relative;
+    height: 25px;
+    line-height: 25px;
+}
+
+.p-function div span {
+    margin-left: 25px;
+}
+
+.p-function-collect div::before {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    /*content: ' ';*/
+    width: 25px;
+    height: 25px;
+    background: url("./../img/collect.png") no-repeat;
+    background-size: 25px 25px;
+}
+
+.p-function-play div::before {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    /*content: ' ';*/
+    width: 25px;
+    height: 25px;
+    background: url("./../img/play.png") no-repeat;
+    background-size: 25px 25px;
+}
+
+.p-function-download div::before {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    /*content: ' ';*/
+    width: 25px;
+    height: 25px;
+    background: url("./../img/download.png") no-repeat;
+    background-size: 25px 25px;
+}
+
+.p-function-share div::before {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    /*content: ' ';*/
+    width: 25px;
+    height: 25px;
+    background: url("./../img/share.png") no-repeat;
+    background-size: 25px 25px;
+}
+
+.p-function-comment div::before {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    /*content: ' ';*/
+    width: 25px;
+    height: 25px;
+    background: url("./../img/comment.png") center center no-repeat;
+    /*background-position: ;*/
+    background-size: 50px 50px;
+}
+
+.p-songWords{
+    margin-top: 30px;
+    border-top: 1px dotted #666;
+    padding-top: 30px;
+}
