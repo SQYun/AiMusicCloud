@@ -11,17 +11,17 @@ function ImageFlow() {
 	    imageCursor: 'pointer',      /* Cursor type for all images - default is 'default' */
 	    ImageFlowID: 'imageflow',    /* Default id of the ImageFlow container */
 	    imageFocusM: 1.0,            /* Multiplicator for the focussed image size in percent */
-	    imageFocusMax: 3,              /* 左右二侧图片数量 */
+	    imageFocusMax: 2,              /* 左右二侧图片数量 */
 	    imagePath: '',             /* Path to the images relative to the reflect_.php script */
 	    imageScaling: true,           /* Toggle image scaling */
 	    imagesHeight: 0.65,           /* 高宽比例 */
-	    imagesM: 1.2,            /* 图片深度 */
+	    imagesM: 0.6,            /* 图片深度 */
 	    onClick: function () { document.location = this.url; },   /* Onclick behaviour */
 	    opacity: false,          /* Toggle image opacity */
 	    opacityArray: [10, 8, 6, 4, 2],   /* Image opacity (range: 0 to 10) first value is for the focussed image */
 	    percentLandscape: 118,            /* Scale landscape format */
 	    percentOther: 120,            /* Scale portrait and square format */
-	    preloadImages: true,           /* Toggles loading bar (false: requires img attributes height and width) */
+	    preloadImages: true,           /* Toggles loading bar (false: requires images attributes height and width) */
 	    reflections: true,           /* Toggle reflections */
 	    reflectionGET: '',             /* Pass variables via the GET method to the reflect_.php script */
 	    reflectionP: 0.5,            /* Height of the reflection in percent of the source image */
@@ -103,11 +103,11 @@ function ImageFlow() {
         for (var index = 0; index < max; index++) {
             node = my.ImageFlowDiv.childNodes[index];
             if (node && node.nodeType == 1 && node.nodeName == 'IMG') {
-                /* Add 'reflect.php?img=' */
+                /* Add 'reflect.php?images=' */
                 if (my.reflections === true) {
                     version = (my.reflectionPNG) ? '3' : '2';
                     src = my.imagePath + node.getAttribute('src', 2);
-                    //src = my.reflectPath+'reflect'+version+'.php?img='+src+my.reflectionGET;
+                    //src = my.reflectPath+'reflect'+version+'.php?images='+src+my.reflectionGET;
                     node.setAttribute('src', src);
                 }
 
