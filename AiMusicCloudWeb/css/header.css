@@ -28,6 +28,7 @@ body{
 
 .h-left {
     line-height: 64px;
+    height: 64px;
     display: inline-block;
     vertical-align: middle;
 }
@@ -55,34 +56,47 @@ body{
 .h-ul {
     display: inline-block;
     height: 100%;
-    vertical-align: text-top;
+    /*vertical-align: text-top;*/
 }
 
 .h-ul li {
     display: inline-block;
+    /*position: relative;*/
     list-style-type: none;
+    height: 100%;
+    /*width: 64px;*/
     /*margin: 0;*/
     /*/ /*/;
     /*height: 100% li / / line-height 31px*/;
     /*display: inline-block;*/
-    height: 32px;
+    /*height: 32px;*/
     color: #d9ebe3;
     /*/ /  background-color: #99d6e3*/;
     float: left;
     /*/ / vertical-align middle*/;
     text-align: center;
-    margin: 0px 20px;
-    line-height: 31px;
+    padding: 0px 20px;
+    line-height: 64px;
     vertical-align: bottom;
 }
 
 .h-ul li:hover {
-    color: #fff
+    /*color: #999999;*/
+    background-color:dodgerblue;
+    cursor: pointer;
 }
 .h-ul li:first-child:hover .h-hidden{
     color: #fff;
     display: block;
 }
+
+/*.h-ul li span{*/
+    /*position: absolute;*/
+    /*top: 50%;*/
+    /*left: 50%;*/
+    /*!*width: 100px;*!*/
+    /*transform: translate(-50%,-50%);*/
+/*}*/
 
 /*.h-ul li:first-child:hover .h-hidden{*/
     /*display: block;*/
@@ -110,11 +124,14 @@ body{
 
 .h-right-input img {
     position: absolute;
-    right: 0;
-    top: 50%;
+    right: 8px;
+    top: 52%;
     transform: translateY(-50%);
 }
 
+.h-right-input img:hover{
+    cursor: pointer;
+}
 .login {
     display: inline-block;
 }
@@ -129,6 +146,7 @@ body{
 
 .login a:hover {
     color: #FFFFCC;
+    cursor: pointer;
 }
 
 
@@ -170,4 +188,6 @@ body{
 .h-hidden-ul li:hover{
     background-color: #3399FF;
     color: #FFFFCC;
+    cursor: pointer;
+
 }
