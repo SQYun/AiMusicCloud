@@ -3,10 +3,11 @@ html, body {
     padding: 0;
 }
 body{
-    background:url("./../images/mainPic.png") no-repeat;
+    background:url("../img/mainPic.png") no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
-    font-family: 'å¾®è½¯é›…é»‘';
+
+    font-family: 'Î¢ÈíÑÅºÚ';
     height: 2000px;
 }
 

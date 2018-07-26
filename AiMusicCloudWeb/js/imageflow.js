@@ -8,11 +8,11 @@ function ImageFlow() {
 	    buttons: false,          /* Toggle navigation buttons */
 	    captions: false,           /* Toggle captions */
 	    circular: true,          /* 循环 */
-	    imageCursor: 'pointer',      /* Cursor type for all images - default is 'default' */
+	    imageCursor: 'pointer',      /* Cursor type for all img - default is 'default' */
 	    ImageFlowID: 'imageflow',    /* Default id of the ImageFlow container */
 	    imageFocusM: 1.0,            /* Multiplicator for the focussed image size in percent */
 	    imageFocusMax: 2,              /* 左右二侧图片数量 */
-	    imagePath: '',             /* Path to the images relative to the reflect_.php script */
+	    imagePath: '',             /* Path to the img relative to the reflect_.php script */
 	    imageScaling: true,           /* Toggle image scaling */
 	    imagesHeight: 0.65,           /* 高宽比例 */
 	    imagesM: 0.6,            /* 图片深度 */
@@ -21,7 +21,7 @@ function ImageFlow() {
 	    opacityArray: [10, 8, 6, 4, 2],   /* Image opacity (range: 0 to 10) first value is for the focussed image */
 	    percentLandscape: 118,            /* Scale landscape format */
 	    percentOther: 120,            /* Scale portrait and square format */
-	    preloadImages: true,           /* Toggles loading bar (false: requires images attributes height and width) */
+	    preloadImages: true,           /* Toggles loading bar (false: requires img attributes height and width) */
 	    reflections: true,           /* Toggle reflections */
 	    reflectionGET: '',             /* Pass variables via the GET method to the reflect_.php script */
 	    reflectionP: 0.5,            /* Height of the reflection in percent of the source image */
@@ -36,7 +36,7 @@ function ImageFlow() {
 	    slideshowAutoplay: true,          /* Toggle automatic slideshow play on startup */
 	    startID: 1,              /* Image ID to begin with */
 	    glideToStartID: true,           /* Toggle glide animation to start ID */
-	    startAnimation: false,          /* Animate images moving in from the right on startup */
+	    startAnimation: false,          /* Animate img moving in from the right on startup */
 	    xStep: 90             /* Step width on the x-axis in px */
 	};
 
@@ -94,36 +94,36 @@ function ImageFlow() {
 
     /* Create HTML Structure */
     this.createStructure = function () {
-        /* Create images div container */
+        /* Create img div container */
         var imagesDiv = my.Helper.createDocumentElement('div', 'images');
 
-        /* Shift all images into the images div */
+        /* Shift all img into the img div */
         var node, version, src, imageNode;
         var max = my.ImageFlowDiv.childNodes.length;
         for (var index = 0; index < max; index++) {
             node = my.ImageFlowDiv.childNodes[index];
             if (node && node.nodeType == 1 && node.nodeName == 'IMG') {
-                /* Add 'reflect.php?images=' */
+                /* Add 'reflect.php?img=' */
                 if (my.reflections === true) {
                     version = (my.reflectionPNG) ? '3' : '2';
                     src = my.imagePath + node.getAttribute('src', 2);
-                    //src = my.reflectPath+'reflect'+version+'.php?images='+src+my.reflectionGET;
+                    //src = my.reflectPath+'reflect'+version+'.php?img='+src+my.reflectionGET;
                     node.setAttribute('src', src);
                 }
 
-                /* Clone image nodes and append them to the images div */
+                /* Clone image nodes and append them to the img div */
                 imageNode = node.cloneNode(true);
                 imagesDiv.appendChild(imageNode);
             }
         }
 
-        /* Clone some more images to make a circular animation possible */
+        /* Clone some more img to make a circular animation possible */
         if (my.circular) {
-            /* Create temporary elements to hold the cloned images */
+            /* Create temporary elements to hold the cloned img */
             var first = my.Helper.createDocumentElement('div', 'images');
             var last = my.Helper.createDocumentElement('div', 'images');
 
-            /* Make sure, that there are enough images to use circular mode */
+            /* Make sure, that there are enough img to use circular mode */
             max = imagesDiv.childNodes.length;
             if (max < my.imageFocusMax) {
                 my.imageFocusMax = max;
@@ -131,7 +131,7 @@ function ImageFlow() {
 
             /* Do not clone anything if there is only one image */
             if (max > 1) {
-                /* Clone the first and last images */
+                /* Clone the first and last img */
                 var i;
                 for (i = 0; i < max; i++) {
                     /* Number of clones on each side equals the imageFocusMax */
@@ -163,7 +163,7 @@ function ImageFlow() {
             }
         }
 
-        /* Create slideshow button div and append it to the images div */
+        /* Create slideshow button div and append it to the img div */
         if (my.slideshow) {
             var slideshowButton = my.Helper.createDocumentElement('div', 'slideshow');
             imagesDiv.appendChild(slideshowButton);
@@ -195,7 +195,7 @@ function ImageFlow() {
             scrollbarDiv.appendChild(buttonNextDiv);
         }
 
-        /* Create navigation div container beneath images div */
+        /* Create navigation div container beneath img div */
         var navigationDiv = my.Helper.createDocumentElement('div', 'navigation');
         navigationDiv.appendChild(captionDiv);
         navigationDiv.appendChild(scrollbarDiv);
@@ -206,7 +206,7 @@ function ImageFlow() {
 			my.ImageFlowDiv.appendChild(loadingP) &&
 			my.ImageFlowDiv.appendChild(loadingDiv) &&
 			my.ImageFlowDiv.appendChild(navigationDiv)) {
-            /* Remove image nodes outside the images div */
+            /* Remove image nodes outside the img div */
             max = my.ImageFlowDiv.childNodes.length;
             for (index = 0; index < max; index++) {
                 node = my.ImageFlowDiv.childNodes[index];
@@ -241,7 +241,7 @@ function ImageFlow() {
             /* Refresh ImageFlow on window resize - delay adding this event for the IE */
             window.setTimeout(my.Helper.addResizeEvent, 1000);
 
-            /* Call refresh once on startup to display images */
+            /* Call refresh once on startup to display img */
             my.refresh();
 
             /* Only initialize navigation elements if there is more than one image */
@@ -266,7 +266,7 @@ function ImageFlow() {
     };
 
 
-    /* Return loaded images in percent, set loading bar width and loading text */
+    /* Return loaded img in percent, set loading bar width and loading text */
     this.loadingStatus = function () {
         var max = my.imagesDiv.childNodes.length;
         var i = 0, completed = 0;
@@ -285,7 +285,7 @@ function ImageFlow() {
         var loadingBar = document.getElementById(my.ImageFlowID + '_loading_bar');
         loadingBar.style.width = finished + '%';
 
-        /* Do not count the cloned images */
+        /* Do not count the cloned img */
         if (my.circular) {
             i = i - (my.imageFocusMax * 2);
             completed = (finished < 1) ? 0 : Math.round((i / 100) * finished);
@@ -312,10 +312,10 @@ function ImageFlow() {
         /* Change imageflow div properties */
         my.ImageFlowDiv.style.height = my.maxHeight + 'px';
 
-        /* Change images div properties */
+        /* Change img div properties */
         my.imagesDiv.style.height = my.imagesDivHeight + 'px';
 
-        /* Change images div properties */
+        /* Change img div properties */
         my.navigationDiv.style.height = (my.maxHeight - my.imagesDivHeight) + 'px';
 
         /* Change captions div properties */
@@ -398,7 +398,7 @@ function ImageFlow() {
             this.totalImagesWidth = image.w * my.max;
             image.style.paddingLeft = (my.imagesDivWidth / 2) + (image.w / 2) + 'px';
 
-            /* Override images and navigation div height */
+            /* Override img and navigation div height */
             my.imagesDiv.style.height = image.h + 'px';
             my.navigationDiv.style.height = (my.maxHeight - image.h) + 'px';
         }
@@ -414,7 +414,7 @@ function ImageFlow() {
                 my.imageID = 0;
             }
 
-            /* Map image id range in cicular mode (ignore the cloned images) */
+            /* Map image id range in cicular mode (ignore the cloned img) */
             if (my.circular) {
                 my.imageID = my.imageID + my.imageFocusMax;
             }
@@ -430,7 +430,7 @@ function ImageFlow() {
                 my.moveTo(-my.imageID * my.xStep);
             }
 
-            /* Animate images moving in from the right */
+            /* Animate img moving in from the right */
             if (my.startAnimation) {
                 my.moveTo(5000);
             }
@@ -441,7 +441,7 @@ function ImageFlow() {
             my.glideTo(my.imageID);
         }
 
-        /* Display images in current order */
+        /* Display img in current order */
         my.moveTo(my.current);
     };
 
@@ -461,7 +461,7 @@ function ImageFlow() {
             /* Enabled image scaling */
             if (my.imageScaling)
             {
-                /* Don't display images that are not conf_focussed */
+                /* Don't display img that are not conf_focussed */
                 if ((currentImage + my.maxFocus) < my.memTarget || (currentImage - my.maxFocus) > my.memTarget)
                 {
                     try
@@ -479,7 +479,7 @@ function ImageFlow() {
                         var z = (Math.sqrt(10000 + x * x) + 100) * my.imagesM;
                         var xs = x / z * my.size + my.size;
 
-                        /* Still hide images until they are processed, but set display style to block */
+                        /* Still hide img until they are processed, but set display style to block */
                         image.style.display = 'block';
 
                         /* Process new image height and width */
@@ -649,7 +649,7 @@ function ImageFlow() {
             my.Helper.setOpacity(my.imagesDiv.childNodes[imageID], my.opacityArray[0]);
             my.imagesDiv.childNodes[imageID].pc = my.imagesDiv.childNodes[imageID].pc * my.imageFocusM;
 
-            /* Set opacity for the other images that are displayed */
+            /* Set opacity for the other img that are displayed */
             var opacityValue = 0;
             var rightID = 0;
             var leftID = 0;
@@ -682,7 +682,7 @@ function ImageFlow() {
             }
         }
 
-        /* Move the images to the jump target */
+        /* Move the img to the jump target */
         if (jumpTarget)
         {
             my.moveTo(jumpTarget);

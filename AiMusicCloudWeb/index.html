@@ -6,7 +6,8 @@
     <meta name="theme-color" content="#000000">
     <title>AiMusicCloud</title>
     <link rel="stylesheet" href="./css/header.css">
-    <link type="text/css" rel="Stylesheet" href="css/imageflow.css" />
+    <link type="text/css" rel="stylesheet" href="css/imageflow.css" />
+    <link type="text/css" rel="stylesheet" href="css/findMusic.css"/>
 </head>
 <body>
 <!--导航栏-->
@@ -25,7 +26,7 @@
             <div class="h-right">
                 <div class="h-right-input">
                     <input type="text"/>
-                    <img src="./images/search.png" alt="搜索" width="25px" height="23px"/>
+                    <img src="img/search.png" alt="搜索" width="25px" height="23px"/>
                 </div>
                 <div class="login"><a href="#">登录/注册</a></div>
             </div>
@@ -39,24 +40,326 @@
                 <li>每日一新</li>
             </ul>
         </div>
+
     </div>
 
 <!--图片轮播-->
 <div id="LoopDiv">
     <input id="S_Num" type="hidden" value="8" />
     <div id="starsIF" class="imageflow">
-        <img src="images/cover2.png" longdesc="#"  alt="Picture" />
-        <img src="images/cover3.png" longdesc="#"  alt="Picture" />
-        <img src="images/cover4.png" longdesc="#"  alt="Picture" />
-        <img src="images/cover5.png" longdesc="#"  alt="Picture" />
-        <img src="images/cover6.png" longdesc="#"  alt="Picture" />
-        <img src="images/cover1.png" longdesc="#"   alt="Picture" />
+        <img src="img/cover2.png" longdesc="#"  alt="Picture" />
+        <img src="img/cover3.png" longdesc="#"  alt="Picture" />
+        <img src="img/cover4.png" longdesc="#"  alt="Picture" />
+        <img src="img/cover5.png" longdesc="#"  alt="Picture" />
+        <img src="img/cover6.png" longdesc="#"  alt="Picture" />
+        <img src="img/cover1.png" longdesc="#"   alt="Picture" />
     </div>
 </div>
 
+<!--歌单展示-->
+<div id="songSheet">
+    <!-- 标题-->
+    <div>
+        <ul>
+            <li><a data-title="1" class="active">热门推荐</a></li>
+            <li><a data-title="2">华语</a></li>
+            <li><a data-title="3">流行</a></li>
+            <li><a data-title="4">摇滚</a></li>
+        </ul>
+        <p class="right"><a href="">更多>></a></p>
+    </div>
+    <!-- 歌单列表-->
+    <div>
+        <!-- 推荐歌单-->
+        <div class="songCoverList active">
+            <div>
+                <div>
+                    <div>
+                        <img src="img/song01.png">
+                        <p><img src="img/ear.png">&nbsp;&nbsp;<span>2万</span>&nbsp;&nbsp;</p>
+                        <div><img src="img/play.png"></div>
+                    </div><br/>
+                    <p>电影里的经典对白遇上后摇</p>
+                </div>
+                <div>
+                    <div>
+                        <img src="img/song02.png">
+                        <p><img src="img/ear.png">&nbsp;&nbsp;<span>1万</span>&nbsp;&nbsp;</p>
+                        <div><img src="img/play.png"></div>
+                    </div><br/>
+                    <p>黑胶酒馆|耳畔的浪漫眼中的你</p>
+                </div>
+                <div>
+                    <div>
+                        <img src="img/song03.png">
+                        <p><img src="img/ear.png">&nbsp;&nbsp;<span>10万</span>&nbsp;&nbsp;</p>
+                        <div><img src="img/play.png"></div>
+                    </div><br/>
+                    <p>可爱即正义|愿永不失孩子气</p>
+                </div>
+                <div>
+                    <div>
+                        <img src="img/song04.png">
+                        <p><img src="img/ear.png">&nbsp;&nbsp;<span>12万</span>&nbsp;&nbsp;</p>
+                        <div><img src="img/play.png"></div>
+                    </div><br/>
+                    <p>玫瑰全都给你|可不可以把你给我？</p>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <div>
+                        <img src="img/song05.png">
+                        <p><img src="img/ear.png">&nbsp;&nbsp;<span>20万</span>&nbsp;&nbsp;</p>
+                        <div><img src="img/play.png"></div>
+                    </div><br/>
+                    <p>复古情歌集|夏日舞步</p>
+                </div>
+                <div>
+                    <div>
+                        <img src="img/song06.png">
+                        <p><img src="img/ear.png">&nbsp;&nbsp;<span>200万</span>&nbsp;&nbsp;</p>
+                        <div><img src="img/play.png"></div>
+                    </div><br/>
+                    <p>电影里的音乐人，胶片上的旧时光</p>
+                </div>
+                <div>
+                    <div>
+                        <img src="img/song07.png">
+                        <p><img src="img/ear.png">&nbsp;&nbsp;<span>15万</span>&nbsp;&nbsp;</p>
+                        <div><img src="img/play.png"></div>
+                    </div><br/>
+                    <p>【摇曳着的优雅与浪漫】三步华尔兹</p>
+                </div>
+                <div>
+                    <div>
+                        <img src="img/song08.png">
+                        <p><img src="img/ear.png">&nbsp;&nbsp;<span>22万</span>&nbsp;&nbsp;</p>
+                        <div><img src="img/play.png"></div>
+                    </div><br/>
+                    <p>那些摇滚乐里的小号</p>
+                </div>
+            </div>
+        </div>
+        <!-- 华语-->
+        <div class="songCoverList">
+            <div>
+                <div>
+                    <div>
+                        <img src="img/song9.png">
+                        <p><img src="img/ear.png">&nbsp;&nbsp;<span>2万</span>&nbsp;&nbsp;</p>
+                        <div><img src="img/play.png"></div>
+                    </div><br/>
+                    <p>电影里的经典对白遇上后摇</p>
+                </div>
+                <div>
+                    <div>
+                        <img src="img/song10.png">
+                        <p><img src="img/ear.png">&nbsp;&nbsp;<span>1万</span>&nbsp;&nbsp;</p>
+                        <div><img src="img/play.png"></div>
+                    </div><br/>
+                    <p>黑胶酒馆|耳畔的浪漫眼中的你</p>
+                </div>
+                <div>
+                    <div>
+                        <img src="img/song11.png">
+                        <p><img src="img/ear.png">&nbsp;&nbsp;<span>10万</span>&nbsp;&nbsp;</p>
+                        <div><img src="img/play.png"></div>
+                    </div><br/>
+                    <p>可爱即正义|愿永不失孩子气</p>
+                </div>
+                <div>
+                    <div>
+                        <img src="img/song12.png">
+                        <p><img src="img/ear.png">&nbsp;&nbsp;<span>12万</span>&nbsp;&nbsp;</p>
+                        <div><img src="img/play.png"></div>
+                    </div><br/>
+                    <p>玫瑰全都给你|可不可以把你给我？</p>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <div>
+                        <img src="img/song13.png">
+                        <p><img src="img/ear.png">&nbsp;&nbsp;<span>20万</span>&nbsp;&nbsp;</p>
+                        <div><img src="img/play.png"></div>
+                    </div><br/>
+                    <p>复古情歌集|夏日舞步</p>
+                </div>
+                <div>
+                    <div>
+                        <img src="img/song14.png">
+                        <p><img src="img/ear.png">&nbsp;&nbsp;<span>200万</span>&nbsp;&nbsp;</p>
+                        <div><img src="img/play.png"></div>
+                    </div><br/>
+                    <p>电影里的音乐人，胶片上的旧时光</p>
+                </div>
+                <div>
+                    <div>
+                        <img src="img/song15.png">
+                        <p><img src="img/ear.png">&nbsp;&nbsp;<span>15万</span>&nbsp;&nbsp;</p>
+                        <div><img src="img/play.png"></div>
+                    </div><br/>
+                    <p>【摇曳着的优雅与浪漫】三步华尔兹</p>
+                </div>
+                <div>
+                    <div>
+                        <img src="img/song16.png">
+                        <p><img src="img/ear.png">&nbsp;&nbsp;<span>22万</span>&nbsp;&nbsp;</p>
+                        <div><img src="img/play.png"></div>
+                    </div><br/>
+                    <p>那些摇滚乐里的小号</p>
+                </div>
+            </div>
+        </div>
+        <!-- 流行-->
+        <div class="songCoverList">
+            <div>
+                <div>
+                    <div>
+                        <img src="img/song17.png">
+                        <p><img src="img/ear.png">&nbsp;&nbsp;<span>2万</span>&nbsp;&nbsp;</p>
+                        <div><img src="img/play.png"></div>
+                    </div><br/>
+                    <p>电影里的经典对白遇上后摇</p>
+                </div>
+                <div>
+                    <div>
+                        <img src="img/song18.png">
+                        <p><img src="img/ear.png">&nbsp;&nbsp;<span>1万</span>&nbsp;&nbsp;</p>
+                        <div><img src="img/play.png"></div>
+                    </div><br/>
+                    <p>黑胶酒馆|耳畔的浪漫眼中的你</p>
+                </div>
+                <div>
+                    <div>
+                        <img src="img/song19.png">
+                        <p><img src="img/ear.png">&nbsp;&nbsp;<span>10万</span>&nbsp;&nbsp;</p>
+                        <div><img src="img/play.png"></div>
+                    </div><br/>
+                    <p>可爱即正义|愿永不失孩子气</p>
+                </div>
+                <div>
+                    <div>
+                        <img src="img/song20.png">
+                        <p><img src="img/ear.png">&nbsp;&nbsp;<span>12万</span>&nbsp;&nbsp;</p>
+                        <div><img src="img/play.png"></div>
+                    </div><br/>
+                    <p>玫瑰全都给你|可不可以把你给我？</p>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <div>
+                        <img src="img/song21.png">
+                        <p><img src="img/ear.png">&nbsp;&nbsp;<span>20万</span>&nbsp;&nbsp;</p>
+                        <div><img src="img/play.png"></div>
+                    </div><br/>
+                    <p>复古情歌集|夏日舞步</p>
+                </div>
+                <div>
+                    <div>
+                        <img src="img/song22.png">
+                        <p><img src="img/ear.png">&nbsp;&nbsp;<span>200万</span>&nbsp;&nbsp;</p>
+                        <div><img src="img/play.png"></div>
+                    </div><br/>
+                    <p>电影里的音乐人，胶片上的旧时光</p>
+                </div>
+                <div>
+                    <div>
+                        <img src="img/song23.png">
+                        <p><img src="img/ear.png">&nbsp;&nbsp;<span>15万</span>&nbsp;&nbsp;</p>
+                        <div><img src="img/play.png"></div>
+                    </div><br/>
+                    <p>【摇曳着的优雅与浪漫】三步华尔兹</p>
+                </div>
+                <div>
+                    <div>
+                        <img src="img/song24.png">
+                        <p><img src="img/ear.png">&nbsp;&nbsp;<span>22万</span>&nbsp;&nbsp;</p>
+                        <div><img src="img/play.png"></div>
+                    </div><br/>
+                    <p>那些摇滚乐里的小号</p>
+                </div>
+            </div>
+        </div>
+        <!-- 摇滚-->
+        <div class="songCoverList">
+            <div>
+                <div>
+                    <div>
+                        <img src="img/song25.png">
+                        <p><img src="img/ear.png">&nbsp;&nbsp;<span>2万</span>&nbsp;&nbsp;</p>
+                        <div><img src="img/play.png"></div>
+                    </div><br/>
+                    <p>电影里的经典对白遇上后摇</p>
+                </div>
+                <div>
+                    <div>
+                        <img src="img/song26.png">
+                        <p><img src="img/ear.png">&nbsp;&nbsp;<span>1万</span>&nbsp;&nbsp;</p>
+                        <div><img src="img/play.png"></div>
+                    </div><br/>
+                    <p>黑胶酒馆|耳畔的浪漫眼中的你</p>
+                </div>
+                <div>
+                    <div>
+                        <img src="img/song27.png">
+                        <p><img src="img/ear.png">&nbsp;&nbsp;<span>10万</span>&nbsp;&nbsp;</p>
+                        <div><img src="img/play.png"></div>
+                    </div><br/>
+                    <p>可爱即正义|愿永不失孩子气</p>
+                </div>
+                <div>
+                    <div>
+                        <img src="img/song28.png">
+                        <p><img src="img/ear.png">&nbsp;&nbsp;<span>12万</span>&nbsp;&nbsp;</p>
+                        <div><img src="img/play.png"></div>
+                    </div><br/>
+                    <p>玫瑰全都给你|可不可以把你给我？</p>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <div>
+                        <img src="img/song29.png">
+                        <p><img src="img/ear.png">&nbsp;&nbsp;<span>20万</span>&nbsp;&nbsp;</p>
+                        <div><img src="img/play.png"></div>
+                    </div><br/>
+                    <p>复古情歌集|夏日舞步</p>
+                </div>
+                <div>
+                    <div>
+                        <img src="img/song30.png">
+                        <p><img src="img/ear.png">&nbsp;&nbsp;<span>200万</span>&nbsp;&nbsp;</p>
+                        <div><img src="img/play.png"></div>
+                    </div><br/>
+                    <p>电影里的音乐人，胶片上的旧时光</p>
+                </div>
+                <div>
+                    <div>
+                        <img src="img/song31.png">
+                        <p><img src="img/ear.png">&nbsp;&nbsp;<span>15万</span>&nbsp;&nbsp;</p>
+                        <div><img src="img/play.png"></div>
+                    </div><br/>
+                    <p>【摇曳着的优雅与浪漫】三步华尔兹</p>
+                </div>
+                <div>
+                    <div>
+                        <img src="img/song32.png">
+                        <p><img src="img/ear.png">&nbsp;&nbsp;<span>22万</span>&nbsp;&nbsp;</p>
+                        <div><img src="img/play.png"></div>
+                    </div><br/>
+                    <p>那些摇滚乐里的小号</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
 <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
 <script type="text/javascript" src="js/imageflow.js"></script>
 <script src="js/header.js"></script>
+<script type="text/javascript" src="js/sjh.js"></script>
 </body>
 </html>

@@ -1,0 +1,129 @@
+ul,li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #666666;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+#songSheet{
+    min-height: 0px;
+    padding: 60px 150px;
+    border-top: 1px solid grey;
+    overflow: hidden;
+    position: relative;
+}
+/*歌单标题*/
+#songSheet>div:first-child{
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+#songSheet>div:first-child ul li{
+    float: left;
+    padding: 0 30px;
+    height: 33px;
+}
+#songSheet>div:first-child ul li a{
+    cursor: pointer;
+    font-size: 20px;
+    color: #666666;
+    transition: all 0.5s;
+}
+#songSheet>div:first-child ul li .active{
+    font-size: 25px;
+    color: black;
+}
+
+/*歌单封面列表*/
+#songSheet>div:last-child{
+    min-height: 1200px;
+    position: relative;
+    color: #666666;
+}
+#songSheet>div>.songCoverList{
+    position: absolute;
+    top: -100px;
+    left: -100px;
+    z-index: -1;
+    opacity: 0;
+    overflow: hidden;
+    width: 100%;
+
+}
+#songSheet>div>.active{
+    top: 0!important;
+    left: 0!important;
+    z-index: 10!important;
+    opacity: 1!important;
+    transition: all 0.8s;
+}
+#songSheet .songCoverList>div{
+    overflow: hidden;
+    width: 100%;
+    text-align: center;
+}
+#songSheet .songCoverList>div>div{
+    display: inline-block;
+    width: 300px;
+    height: 350px;
+    margin: 30px 30px;
+    overflow: hidden;
+}
+#songSheet .songCoverList>div>div>div{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+}
+#songSheet .songCoverList>div>div>div>img{
+    width: 100%;
+    height: 100%;
+}
+#songSheet .songCoverList>div>div>p{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+/*播放量条*/
+#songSheet .songCoverList>div>div>div>p{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 30px;
+    background-color: rgba(100,100,100,0.5);
+    color: white;
+    font-size: 16px;
+    text-align: right;
+    line-height: 30px;
+    vertical-align:baseline;
+}
+#songSheet .songCoverList>div>div>div>p>img{
+    margin-top: 5px;
+    width: 20px;
+    height: 20px;
+}
+/*播放按钮*/
+#songSheet .songCoverList>div>div>div>div>img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 10px;
+    height: 10px;
+    margin-top: -10px;
+    margin-left: -10px;
+    transition:all 0.5s;
+    opacity: 0;
+}
+#songSheet .songCoverList>div>div>div>div>.active{
+    cursor: pointer;
+    transform: rotate(360deg) scale(4,4);
+    opacity: 1;
+}
+

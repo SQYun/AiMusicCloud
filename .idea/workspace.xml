@@ -2,25 +2,57 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25bb2fd3-3290-4a73-bae2-b5bbeb8f070f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AiMusicCloudWeb/images/cover1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AiMusicCloudWeb/images/cover2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AiMusicCloudWeb/images/cover3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AiMusicCloudWeb/images/cover4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AiMusicCloudWeb/images/cover5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AiMusicCloudWeb/images/cover6.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AiMusicCloudWeb/images/mainPic.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AiMusicCloudWeb/images/mainPic01.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AiMusicCloudWeb/css/findMusic.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AiMusicCloudWeb/css/imageflow.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AiMusicCloudWeb/js/jquery-3.3.1.min.js" />
-      <change type="DELETED" beforePath="E:\0a0\AiMusicCloud\AiMusicCloudWeb\css\header.styl" afterPath="" />
-      <change type="DELETED" beforePath="E:\0a0\AiMusicCloud\AiMusicCloudWeb\js\jquery.js" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AiMusicCloudWeb/img/ear.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AiMusicCloudWeb/img/song01.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AiMusicCloudWeb/img/song02.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AiMusicCloudWeb/img/song03.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AiMusicCloudWeb/img/song04.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AiMusicCloudWeb/img/song05.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AiMusicCloudWeb/img/song06.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AiMusicCloudWeb/img/song07.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AiMusicCloudWeb/img/song08.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AiMusicCloudWeb/img/song10.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AiMusicCloudWeb/img/song11.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AiMusicCloudWeb/img/song12.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AiMusicCloudWeb/img/song13.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AiMusicCloudWeb/img/song14.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AiMusicCloudWeb/img/song15.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AiMusicCloudWeb/img/song16.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AiMusicCloudWeb/img/song17.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AiMusicCloudWeb/img/song18.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AiMusicCloudWeb/img/song19.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AiMusicCloudWeb/img/song20.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AiMusicCloudWeb/img/song21.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AiMusicCloudWeb/img/song22.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AiMusicCloudWeb/img/song23.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AiMusicCloudWeb/img/song24.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AiMusicCloudWeb/img/song25.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AiMusicCloudWeb/img/song26.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AiMusicCloudWeb/img/song27.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AiMusicCloudWeb/img/song28.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AiMusicCloudWeb/img/song29.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AiMusicCloudWeb/img/song30.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AiMusicCloudWeb/img/song31.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AiMusicCloudWeb/img/song32.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AiMusicCloudWeb/img/song9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AiMusicCloudWeb/js/sjh.js" />
+      <change type="DELETED" beforePath="E:\0a0\AiMusicCloud\AiMusicCloudWeb\images\music.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\0a0\AiMusicCloud\AiMusicCloudWeb\images\search.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AiMusicCloudWeb/img/play.png" afterPath="$PROJECT_DIR$/AiMusicCloudWeb/img/play.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AiMusicCloudWeb/css/findMusic.css" afterPath="$PROJECT_DIR$/AiMusicCloudWeb/css/findMusic.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AiMusicCloudWeb/css/header.css" afterPath="$PROJECT_DIR$/AiMusicCloudWeb/css/header.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AiMusicCloudWeb/js/imageflow.js" afterPath="$PROJECT_DIR$/AiMusicCloudWeb/js/imageflow.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AiMusicCloudWeb/index.html" afterPath="$PROJECT_DIR$/AiMusicCloudWeb/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="E:\0a0\AiMusicCloud\AiMusicCloudWeb\img\music.png" afterPath="$PROJECT_DIR$/AiMusicCloudWeb/images/music.png" />
-      <change type="MOVED" beforePath="E:\0a0\AiMusicCloud\AiMusicCloudWeb\img\search.png" afterPath="$PROJECT_DIR$/AiMusicCloudWeb/images/search.png" />
+      <change type="MOVED" beforePath="E:\0a0\AiMusicCloud\AiMusicCloudWeb\images\cover1.png" afterPath="$PROJECT_DIR$/AiMusicCloudWeb/img/cover1.png" />
+      <change type="MOVED" beforePath="E:\0a0\AiMusicCloud\AiMusicCloudWeb\images\cover2.png" afterPath="$PROJECT_DIR$/AiMusicCloudWeb/img/cover2.png" />
+      <change type="MOVED" beforePath="E:\0a0\AiMusicCloud\AiMusicCloudWeb\images\cover3.png" afterPath="$PROJECT_DIR$/AiMusicCloudWeb/img/cover3.png" />
+      <change type="MOVED" beforePath="E:\0a0\AiMusicCloud\AiMusicCloudWeb\images\cover4.png" afterPath="$PROJECT_DIR$/AiMusicCloudWeb/img/cover4.png" />
+      <change type="MOVED" beforePath="E:\0a0\AiMusicCloud\AiMusicCloudWeb\images\cover5.png" afterPath="$PROJECT_DIR$/AiMusicCloudWeb/img/cover5.png" />
+      <change type="MOVED" beforePath="E:\0a0\AiMusicCloud\AiMusicCloudWeb\images\cover6.png" afterPath="$PROJECT_DIR$/AiMusicCloudWeb/img/cover6.png" />
+      <change type="MOVED" beforePath="E:\0a0\AiMusicCloud\AiMusicCloudWeb\images\mainPic.png" afterPath="$PROJECT_DIR$/AiMusicCloudWeb/img/mainPic.png" />
+      <change type="MOVED" beforePath="E:\0a0\AiMusicCloud\AiMusicCloudWeb\images\mainPic01.png" afterPath="$PROJECT_DIR$/AiMusicCloudWeb/img/mainPic01.png" />
     </list>
     <ignored path="AiMusicCloud.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -41,11 +73,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/AiMusicCloudWeb/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.0">
-              <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+            <state vertical-scroll-proportion="2.7977529">
+              <caret line="349" column="94" selection-start-line="349" selection-start-column="94" selection-end-line="349" selection-end-column="94" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="imageflow.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AiMusicCloudWeb/css/imageflow.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -55,17 +97,27 @@
         <entry file="file://$PROJECT_DIR$/AiMusicCloudWeb/css/findMusic.css">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="62" column="23" selection-start-line="62" selection-start-column="23" selection-end-line="62" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="header.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AiMusicCloudWeb/css/header.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.18835616">
-              <caret line="5" column="39" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="play.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AiMusicCloudWeb/css/play.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -95,9 +147,31 @@
         <entry file="file://$PROJECT_DIR$/AiMusicCloudWeb/js/imageflow.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="20" column="37" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
+              <caret line="15" column="64" selection-start-line="15" selection-start-column="64" selection-end-line="15" selection-end-column="64" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AiMusicCloudWeb/js/header.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sjh.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AiMusicCloudWeb/js/sjh.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="20" column="97" selection-start-line="20" selection-start-column="97" selection-end-line="20" selection-end-column="106" />
+              <folding>
+                <element signature="e#0#53#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -109,6 +183,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -119,9 +194,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/AiMusicCloudWeb/js/imageflow.js" />
+        <option value="$PROJECT_DIR$/AiMusicCloudWeb/css/header.css" />
+        <option value="$PROJECT_DIR$/AiMusicCloudWeb/js/sjh.js" />
         <option value="$PROJECT_DIR$/AiMusicCloudWeb/css/findMusic.css" />
         <option value="$PROJECT_DIR$/AiMusicCloudWeb/index.html" />
-        <option value="$PROJECT_DIR$/AiMusicCloudWeb/css/header.css" />
       </list>
     </option>
   </component>
@@ -224,7 +300,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
+              <option name="myItemId" value="img" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -257,12 +333,181 @@
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="last_opened_file_path" value="E:/0a（git-project）/teamhelper-head" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\0a0\AiMusicCloud\AiMusicCloudWeb\img" />
       <recent name="E:\0a0\AiMusicCloud\AiMusicCloudWeb\images" />
       <recent name="E:\0a0\AiMusicCloud\AiMusicCloudWeb\js" />
     </key>
+  </component>
+  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
+    <UpdatedFiles>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Updated from server" />
+        <option name="myStatusName" value="Changed on server" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="CHANGED_ON_SERVER" />
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated" />
+          <option name="myStatusName" value="Changed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UPDATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/AiMusicCloudWeb/css/header.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/AiMusicCloudWeb/css/play.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/AiMusicCloudWeb/play.html</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Created" />
+          <option name="myStatusName" value="Created" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CREATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/AiMusicCloudWeb/css/comment.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/AiMusicCloudWeb/css/images/2.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/AiMusicCloudWeb/css/images/3.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/AiMusicCloudWeb/css/images/4.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/AiMusicCloudWeb/css/images/banner.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/AiMusicCloudWeb/css/images/collect.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/AiMusicCloudWeb/css/images/comment.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/AiMusicCloudWeb/css/images/download.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/AiMusicCloudWeb/css/images/fastforward.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/AiMusicCloudWeb/css/images/logo3.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/AiMusicCloudWeb/css/images/logo4.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/AiMusicCloudWeb/css/images/music-back.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/AiMusicCloudWeb/css/images/music.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/AiMusicCloudWeb/css/images/pause.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/AiMusicCloudWeb/css/images/play.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/AiMusicCloudWeb/css/images/playing.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/AiMusicCloudWeb/css/images/repeat.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/AiMusicCloudWeb/css/images/rewind.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/AiMusicCloudWeb/css/images/search.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/AiMusicCloudWeb/css/images/share.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/AiMusicCloudWeb/css/images/shuffle.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/AiMusicCloudWeb/css/images/volume.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/AiMusicCloudWeb/css/style.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/AiMusicCloudWeb/css/stylesheets/style.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/AiMusicCloudWeb/img/0.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/AiMusicCloudWeb/img/1.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/AiMusicCloudWeb/img/2.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/AiMusicCloudWeb/img/3.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/AiMusicCloudWeb/img/4.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/AiMusicCloudWeb/img/5.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/AiMusicCloudWeb/img/banner.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/AiMusicCloudWeb/img/collect.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/AiMusicCloudWeb/img/comment.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/AiMusicCloudWeb/img/download.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/AiMusicCloudWeb/img/fastforward.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/AiMusicCloudWeb/img/logo1.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/AiMusicCloudWeb/img/logo2.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/AiMusicCloudWeb/img/logo3.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/AiMusicCloudWeb/img/logo4.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/AiMusicCloudWeb/img/music-back.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/AiMusicCloudWeb/img/music.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/AiMusicCloudWeb/img/pause.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/AiMusicCloudWeb/img/play.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/AiMusicCloudWeb/img/playing.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/AiMusicCloudWeb/img/repeat.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/AiMusicCloudWeb/img/rewind.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/AiMusicCloudWeb/img/search.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/AiMusicCloudWeb/img/share.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/AiMusicCloudWeb/img/shuffle.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/AiMusicCloudWeb/img/volume.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/AiMusicCloudWeb/js/jquery-1.7.2.min.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/AiMusicCloudWeb/js/jquery-ui-1.8.17.custom.min.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/AiMusicCloudWeb/js/play.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/AiMusicCloudWeb/js/script.js</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Deleted" />
+          <option name="myStatusName" value="Deleted" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="true" />
+          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Restored" />
+          <option name="myStatusName" value="Will be restored" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="RESTORED" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Modified" />
+        <option name="myStatusName" value="Modified" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MODIFIED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Skipped" />
+        <option name="myStatusName" value="Skipped" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SKIPPED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with conflicts" />
+        <option name="myStatusName" value="Will be merged with conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_CONFLICTS" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with tree conflicts" />
+        <option name="myStatusName" value="Merged with tree conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with property conflicts" />
+        <option name="myStatusName" value="Will be merged with property conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged" />
+        <option name="myStatusName" value="Will be merged" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Not in repository" />
+        <option name="myStatusName" value="Not in repository" />
+        <option name="mySupportsDeletion" value="true" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="UNKNOWN" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally added" />
+        <option name="myStatusName" value="Locally added" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_ADDED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally removed" />
+        <option name="myStatusName" value="Locally removed" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_REMOVED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Switched" />
+        <option name="myStatusName" value="Switched" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SWITCHED" />
+      </FILE-GROUP>
+    </UpdatedFiles>
   </component>
   <component name="RunManager">
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -306,47 +551,51 @@
       <option name="number" value="Default" />
       <updated>1532516566116</updated>
     </task>
+    <task id="LOCAL-00001" summary="&quot;7/25&quot;">
+      <created>1532519459292</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1532519459292</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="1924" height="1056" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24973433" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24973433" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32967034" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32967034" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24973433" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="&quot;7/25&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;7/25&quot;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/AiMusicCloudWeb/css/findMusic.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AiMusicCloudWeb/js/jquery-3.3.1.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -355,13 +604,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AiMusicCloudWeb/js/imageflow.js">
+    <entry file="file://$PROJECT_DIR$/AiMusicCloudWeb/css/play.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="37" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -373,18 +620,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AiMusicCloudWeb/index.html">
+    <entry file="file://$PROJECT_DIR$/AiMusicCloudWeb/css/imageflow.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.0">
-          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AiMusicCloudWeb/js/imageflow.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="64" selection-start-line="15" selection-start-column="64" selection-end-line="15" selection-end-column="64" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AiMusicCloudWeb/css/header.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.18835616">
-          <caret line="5" column="39" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AiMusicCloudWeb/js/header.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AiMusicCloudWeb/js/sjh.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="97" selection-start-line="20" selection-start-column="97" selection-end-line="20" selection-end-column="106" />
+          <folding>
+            <element signature="e#0#53#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AiMusicCloudWeb/css/findMusic.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="62" column="23" selection-start-line="62" selection-start-column="23" selection-end-line="62" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AiMusicCloudWeb/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.7977529">
+          <caret line="349" column="94" selection-start-line="349" selection-start-column="94" selection-end-line="349" selection-end-column="94" />
           <folding />
         </state>
       </provider>
