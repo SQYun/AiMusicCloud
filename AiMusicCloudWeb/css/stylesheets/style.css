@@ -102,7 +102,7 @@ a {
 }
 
 .bo1 {
-    background: url(./../../images/mainPic.png) no-repeat;
+    background: url(./../../img/mainPic.png) no-repeat;
     background-size: contain;
     width: 500px;
     /*height: 275px;*/
