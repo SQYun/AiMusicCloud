@@ -5,16 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="theme-color" content="#000000">
     <title>AiMusicCloud</title>
+    <!--bootstrap文件引入-->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+
     <link rel="stylesheet" href="./css/header.css">
     <link type="text/css" rel="stylesheet" href="css/imageflow.css" />
     <link type="text/css" rel="stylesheet" href="css/findMusic.css"/>
+    <!--登陆页面的css-->
+    <link rel="stylesheet" href="./css/login.css">
 </head>
 <body>
 <!--导航栏-->
     <div class="header">
         <div class="h-content">
             <div class="h-left">
-                <div class="h-logo">AiMusicCloud</div>
+                <div class="h-logo"><a href="./play.html">AiMusicCloud</a></div>
                 <ul class="h-ul">
                     <li>发现音乐</li>
                     <li>我的音乐</li>
@@ -28,7 +33,7 @@
                     <input type="text"/>
                     <img src="./img/search2.png" alt="搜索" width="15px" height="15px"/>
                 </div>
-                <div class="login"><a href="#">登录/注册</a></div>
+                <div class="login"><a   data-toggle="modal" data-target="#loginModal">登录/注册</a></div>
             </div>
         </div>
         <div class="h-hidden">
@@ -357,7 +362,28 @@
     </div>
 </div>
 
+<!-- 登录模态框 -->
+<div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">登录</h4>
+            </div>
+            <div class="modal-body">
+                <!--...-->
+                吴德轩
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+        </div>
+    </div>
+</div>
 <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+<!--bootstrapJs-->
+<script src="./js/bootstrap.min.js"></script>
 <script type="text/javascript" src="js/imageflow.js"></script>
 <script src="js/header.js"></script>
 <script type="text/javascript" src="js/sjh.js"></script>

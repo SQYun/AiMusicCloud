@@ -1,0 +1,12 @@
+#loginModal .modal-dialog{
+    margin-top: 90px;
+}
+#loginModal .modal-content{
+    border-left: 0;
+}
+
+#loginModal .modal-header{
+    background-color: #3399FF;
+    border-radius: 6px;
+    color: #d9ebe3;
+}

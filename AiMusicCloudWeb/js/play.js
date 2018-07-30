@@ -7,8 +7,8 @@ var statiHtml = '';
 
 function addHtml(domHtml, className) {
 
-    comments.map(function (value,i) {
-        if (comments.length !== 0){
+    comments.map(function (value, i) {
+        if (comments.length !== 0) {
             $('.' + className).addClass('comment-list');
         }
         var timeString = updateTimeString(value);
@@ -26,7 +26,7 @@ function addHtml(domHtml, className) {
             '                <span' +
             // '                    onClick={this.handleDeleteComment.bind(this)}\n' +
             '                    class="comment-delete"' +
-            'onclick="deleteComment('+i+')">' +
+            'onclick="deleteComment(' + i + ')">' +
             '                删除' +
             '                </span>' +
             '</div>'
@@ -34,16 +34,16 @@ function addHtml(domHtml, className) {
 
     // console.log(domHtml)
     $('.comment-list').html(domHtml);
-    if (comments.length === 0){
+    if (comments.length === 0) {
         $('.' + className).removeClass('comment-list');
     }
 
 }
 
 function deleteComment(i) {
-    comments.splice(i,1);
+    comments.splice(i, 1);
     saveComments(comments);
-    addHtml(statiHtml,"comment-list2");
+    addHtml(statiHtml, "comment-list2");
 
 }
 
@@ -57,7 +57,7 @@ function getComments() {
         comments = JSON.parse(storageComments)// this.setState({ comments })
         // return comments;
         // var _timer = setInterval(addHtml(statiHtml, 'comment-list2'), 5000);
-        setInterval('addHtml(statiHtml, "comment-list2")',5000)
+        setInterval('addHtml(statiHtml, "comment-list2")', 5000)
         addHtml(statiHtml, 'comment-list2');
 
 
@@ -70,8 +70,44 @@ function updateTimeString(comment) {
     }
     var duration = (new Date().getTime() - comment.createdTime) / 1000;
     console.log(duration);
-    var timeString = duration > 60 ? Math.round(duration / 60) + '分钟前！' : Math.round(Math.max(duration, 1)) + '秒前';
-    console.log(timeString);
+    // var timeString;
+    // switch (duration) {
+    //     case (duration >= 60 && duration < 3600):
+    //          timeString = Math.round(duration / 60) + '分钟前';
+    //         console.log(2)
+    //         break;
+    //     case (duration >= 3600 && duration < 86400) :
+    //          timeString = Math.round(duration / 3600) + '小时前';
+    //         console.log(3)
+    //         break;
+    //     case (duration > 86400):
+    //          timeString = Math.round(duration / 86400) + '天前';
+    //         console.log(4)
+    //         break;
+    //     case (duration >= 0 && duration < 60):
+    //          timeString = Math.round(Math.max(duration, 1)) + '秒前';
+    //         console.log(5)
+    //         break;
+    //     default:
+    //         console.log('a');
+    //         break;
+    //
+    // }
+    var timeString;
+    if (duration >= 0 && duration < 60){
+         timeString = Math.round(Math.max(duration, 1)) + '秒前';
+    }else if(duration >= 60 && duration < 3600){
+         timeString = Math.round(duration / 60) + '分钟前';
+    }else if(duration >= 3600 && duration < 86400){
+        timeString = Math.round(duration / 3600) + '小时前';
+    }else if(duration > 86400){
+        timeString = Math.round(duration / 86400) + '天前';
+    }else {
+        console.log('时间判断错误！');
+    }
+
+    // timeString = duration > 60 ? Math.round(duration / 60) + '分钟前' : Math.round(Math.max(duration, 1)) + '秒前';
+        console.log(timeString);
     return timeString;
 }
 

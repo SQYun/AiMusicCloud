@@ -7,7 +7,7 @@ body{
     background-attachment: fixed;
     background-size: 100% 100%;
 
-    font-family: 'Î¢ÈíÑÅºÚ';
+    font-family: 'Î¢ï¿½ï¿½ï¿½Åºï¿½';
     height: 2000px;
 }
 
@@ -41,6 +41,11 @@ body{
     font-family: Brush Script Std;
     font-weight: bold;
     color: #FFFFCC;
+}
+.h-logo a{
+    font-family: Brush Script Std;
+    color: #FFFFCC;
+
 }
 
 .h-logo:before {
