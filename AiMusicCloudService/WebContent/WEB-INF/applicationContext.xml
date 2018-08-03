@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans  xmlns="http://www.springframework.org/schema/beans"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:context="http://www.springframework.org/schema/context"
+        xmlns:tx="http://www.springframework.org/schema/tx"
+        xmlns:mvc="http://www.springframework.org/schema/mvc"
+        xsi:schemaLocation="http://www.springframework.org/schema/beans 
+                            http://www.springframework.org/schema/beans/spring-beans-4.3.xsd
+                            http://www.springframework.org/schema/context
+                            http://www.springframework.org/schema/context/spring-context-4.3.xsd
+                            http://www.springframework.org/schema/tx
+                            http://www.springframework.org/schema/tx/spring-tx-2.0.xsd">
+    
+    <!-- 指定Spring需要扫描的包，需要Spring管理的Bean必须在此包里. -->
+    <!-- 当然，由SpringMVC已扫描的bean此处并不需要扫描.(可指明不需要哪些bean，此处未实现) -->
+    <context:component-scan base-package="com.ht" />
+    
+    <!-- 使用annotation定义事务 -->
+    <tx:annotation-driven transaction-manager="transactionManager" />
+    
+    <!-- 配置数据源 -->
+    <bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource" >
+        <!-- <property name="driverClassName" value="com.mysql.jdbc.Driver"></property> -->
+        <property name="driverClassName" value="com.mysql.cj.jdbc.Driver"></property>
+        <!-- <property name="url" value="jdbc:mysql://localhost/music?useUnicode=true&amp;characterEncoding=utf-8"></property> -->
+        <property name="url" value="jdbc:mysql://localhost/music?useSSL=false&amp;serverTimezone=UTC"></property>
+        <property name="username" value="root"></property>
+        <property name="password" value="root"></property>
+    </bean>
+    
+    <!-- 配置SessionFactory -->
+    <bean id="sessionFactory" class="org.springframework.orm.hibernate5.LocalSessionFactoryBean">
+        <property name="dataSource" ref="dataSource" />
+        <property name="hibernateProperties">
+            <props>
+                <!-- 指定Hibernate的连接方言 -->
+                <prop key="hibernate.dialect">org.hibernate.dialect.MySQLDialect</prop>
+                <!--是否根据Hiberante映射创建数据表 -->
+                <prop key="hibernate.hbm2ddl.auto">update</prop>
+                <prop key="hibernate.show_sql">true</prop>
+                <prop key="hibernate.format_sql">true</prop>
+            </props>
+        </property>
+        <!-- 指明与数据库表对应的实体类(这种特殊的类我更倾向在配置文件中指明，一目了然) -->
+        <property name="annotatedClasses">
+            <list>
+           		<value>com.ht.entity.User</value>
+                <value>com.ht.entity.Admin</value>
+                <value>com.ht.entity.Video</value>
+                <value>com.ht.entity.Cd</value>
+                <value>com.ht.entity.Collect</value>
+                <value>com.ht.entity.Image</value>
+                <value>com.ht.entity.Song</value>
+                <value>com.ht.entity.Manager</value>
+            </list>
+        </property>
+    </bean>
+    
+    <!-- 配置一个事务管理器 -->
+    <bean id="transactionManager" class="org.springframework.orm.hibernate5.HibernateTransactionManager">
+        <property name="sessionFactory" ref="sessionFactory"/>
+    </bean>
+    
+    <!-- SpringMVC上传文件时，需要配置MultipartResolver处理器 -->  
+<bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver">  
+        <property name="defaultEncoding" value="UTF-8" />  
+        <!-- 指定所上传文件的总大小不能超过20MB。注意maxUploadSize属性的限制不是针对单个文件，而是所有文件的容量之和 -->  
+        <property name="maxUploadSize" value="20000000"/>  
+        <property name="uploadTempDir" value="uploadFile/placeMusic" />
+</bean>  
+
+		<!-- 属性详解：
+		defaultEncoding="UTF-8" 是请求的编码格式，默认为iso-8859-1
+		maxUploadSize="200000" 是上传文件的大小，单位为字节
+		uploadTempDir="uploadTempDirectory" 为上传文件的临时路径，可自定义  --> 
+    
+</beans>
