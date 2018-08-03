@@ -61,6 +61,35 @@
             cover: "img/5.jpg",
             mp3: "http://ovsrojwiu.bkt.clouddn.com/downloadfile-6.mp3",
         }];
+    /*如调用ajax时*/
+        // playlist = [];
+    // $.ajax({
+    //     url: 'http://10.25.209.5:8080/AiMusicCloud/music/getSongNews.action',
+    //     type: 'GET',
+    //     // contentType: "application/json",
+    //     dataType: 'json',
+    //     async: false,
+    //     success: function (data) {
+    //         var contents = data.content;
+    //         for (var i = 0; i < contents.length; i++) {
+    //             var obj = {
+    //                 title: contents[i][2],
+    //                 artist: contents[i][3],
+    //                 album: ' ',
+    //                 cover: ' ',
+    //                 mp3: contents[i][1]
+    //             };
+    //             playlist.push(obj);
+    //             obj = {};
+    //             $('.p-musicName').text(playlist.title)
+    //         }
+    //         console.log(playlist);
+    //     },
+    //     error: function () {
+    //         console.log('音乐信息获取失败！');
+    //     }
+    // });
+    // console.log(playlist);
     for (var i = 0; i < playlist.length; i++) {
         var item = playlist[i];
         $('#playlist').append('<li>' + item.artist + ' - ' + item.title + '</li>');

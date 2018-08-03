@@ -13,12 +13,12 @@ a{
 }
 #songSheet{
     min-height: 0px;
-    padding: 60px 150px;
+    padding: 60px 0px;
     border-top: 1px solid grey;
     overflow: hidden;
     position: relative;
 }
-/*¸èµ¥±êÌâ*/
+/*ï¿½èµ¥ï¿½ï¿½ï¿½ï¿½*/
 #songSheet>div:first-child{
     overflow: hidden;
     margin-bottom: 30px;
@@ -39,7 +39,7 @@ a{
     color: black;
 }
 
-/*¸èµ¥·âÃæÁÐ±í*/
+/*ï¿½èµ¥ï¿½ï¿½ï¿½ï¿½ï¿½Ð±ï¿½*/
 #songSheet>div:last-child{
     min-height: 1200px;
     position: relative;
@@ -90,7 +90,7 @@ a{
     text-overflow: ellipsis;
 }
 
-/*²¥·ÅÁ¿Ìõ*/
+/*ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½*/
 #songSheet .songCoverList>div>div>div>p{
     position: absolute;
     top: 0;
@@ -109,7 +109,7 @@ a{
     width: 20px;
     height: 20px;
 }
-/*²¥·Å°´Å¥*/
+/*ï¿½ï¿½ï¿½Å°ï¿½Å¥*/
 #songSheet .songCoverList>div>div>div>div>img{
     position: absolute;
     top: 50%;
@@ -125,5 +125,8 @@ a{
     cursor: pointer;
     transform: rotate(360deg) scale(4,4);
     opacity: 1;
+}
+#songslist{
+    margin-top: 90px!important;
 }
 
