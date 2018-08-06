@@ -1,3 +1,3 @@
 # AiMusicCloud
-a music project
-AiMusicCloud文件夹为前端代码。
+a music project。
+`AiMusicCloud`文件夹为前端代码。
