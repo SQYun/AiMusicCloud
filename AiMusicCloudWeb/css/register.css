@@ -1,0 +1,12 @@
+#registerModal .modal-dialog{
+    margin-top: 150px;
+}
+#registerModal .modal-content{
+    border-left: 20px;
+}
+
+#registerModal .modal-header{
+    background-color: #3399FF;
+    border-radius: 6px;
+    color: #d9ebe3;
+}
