@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="theme-color" content="#000000">
     <title>AiMusicCloud</title>
@@ -16,6 +17,18 @@
     <link rel="stylesheet" href="./css/login.css">
     <!-- 注册页面的css-->
     <link rel="stylesheet" href="./css/register.css">
+    <!-- Bootstrap core CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+
+    <!--  IE10 viewport hack for Surface/desktop Windows 8 bug
+    <link href="http://v3.bootcss.com/assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+     HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries
+    [if lt IE 9]>
+    <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
 </head>
 <body>
 <!--导航栏-->
@@ -48,7 +61,6 @@
                 <li>每日一新</li>
             </ul>
         </div>
-
     </div>
 
 <!--图片轮播-->
@@ -378,19 +390,23 @@
             <div class="modal-body">
                 <form class="form-group" action="">
                  <div class="form-group">
-                      <label for="">用户名</label>
-                       <input class="form-control" type="text" placeholder="">
+                      <label for="loginName">用户名</label>
+                       <input id="loginName" name="loginName" class="form-control" type="text" placeholder="请输入用户名">
+
                   </div>
                    <div class="form-group">
-                        <label for="">密码</label>
-                        <input class="form-control" type="password" placeholder="">
+                        <label for="loginPwd">密码</label>
+                        <input id="loginPwd" name="loginPwd" class="form-control" type="password" placeholder="请输入密码">
                    </div>
                <div class="text-right">
                        <button class="btn btn-primary" type="submit">登录</button>
-                        <button class="btn btn-danger" data-dismiss="modal">取消</button>
+                       <button class="btn btn-danger"  type="reset">重置</button>
                  </div>
-                 <a href="" data-toggle="modal" data-dismiss="modal" data-target="#registerModal">还没有账号？点我注册</a>
-             </form>
+                    <div>
+                        <a href="" data-toggle="modal" data-dismiss="modal" data-target="#registerModal">还没有账号？点我注册</a>
+                    </div>
+
+                </form>
             </div>
             <!--<div class="modal-footer">
                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -411,26 +427,39 @@
                 </div>
             </div>
             <div class="modal-body">
-                <form class="form-group" action="">
+                <form id="registerForm"class="form-group" action="">
                    <div class="form-group">
-                         <label for="">用户名</label>
-                        <input class="form-control" type="text" placeholder="6-15位字母或数字">
+                        <label for="registerName">用户名</label>
+                        <input  id="registerName" name="registerName" class="form-control" type="text" placeholder="6-15位字母或数字">
                    </div>
                      <div class="form-group">
-                       <label for="">密码</label>
-                     <input class="form-control" type="password" placeholder="至少6位字母或数字">
-                    </div>
-                 <div class="form-group">
-                        <label for="">再次输入密码</label>
-                       <input class="form-control" type="password" placeholder="至少6位字母或数字">
+                       <label for="registerPwd">密码</label>
+                     <input  id="registerPwd" name="registerPwd" class="form-control" type="password" placeholder="6-15位字母或数字">
                     </div>
                     <div class="form-group">
-                       <label for="">邮箱</label>
-                        <input class="form-control" type="email" placeholder="例如:275301499@qq.com">
+                        <label for="realName">真实姓名</label>
+                        <input  id="realName" name="realName" class="form-control" type="text" placeholder="请输入你的姓名">
+                    </div>
+                    <div class="form-group">
+                        <label for="phoneNumber">手机号</label>
+                        <input  id="phoneNumber" name="phoneNumber" class="form-control" type="text" placeholder="请输入你的手机号">
+                    </div>
+                    <div class="form-group">
+                        <label for="birthday">出生日期</label><br>
+                        <input  id="birthday" name="birthday" class="form-control" type="text" placeholder="请输入你的出生日期,比如1997-05-02">
+                    </div>
+                    <div class="form-group">
+                        <label for="userInfo">用户介绍</label><br>
+                        <input id="userInfo" name="userInfo"  class="form-control" type="text" placeholder="请输入你的个人介绍">
+                    </div>
+                    <div class="form-group">
+                        <label for="">性别</label><br>
+                        <input type="radio" name="sex" value="男" checked />男&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <input type="radio" name="sex" value="女" />女
                     </div>
                     <div class="text-right">
                         <button class="btn btn-primary" type="submit">提交</button>
-                       <button class="btn btn-danger" data-dismiss="modal">取消</button>
+                        <button class="btn btn-danger"  type="reset">重置</button>
                    </div>
                      <a href="" data-toggle="modal" data-dismiss="modal" data-target="#loginModal">已有账号？点我登录</a>
             </form>
@@ -521,10 +550,13 @@
 </div>
 
 <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+
 <!--bootstrapJs-->
 <script src="./js/bootstrap.min.js"></script>
 <script type="text/javascript" src="js/imageflow.js"></script>
 <script src="js/header.js"></script>
 <script type="text/javascript" src="js/index.js"></script>
+    <script src="https://cdn.bootcss.com/bootstrap-validator/0.5.3/js/bootstrapValidator.js"></script>
+    <script src="js/registerTest.js"></script>
 </body>
 </html>
